@@ -1,0 +1,51 @@
+body {
+  background-color: #1e5799;;
+    font-family: "Sofia", sans-serif;
+}
+
+.player {
+    width: 100%;
+    height: auto;
+}
+
+.player div {
+    display: inline-block;
+    text-align: center;
+    padding: 50px 155px;
+}
+
+.player img {
+    position: relative;
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    border: double 1px #000;
+}
+
+
+.play {
+  text-align: center;
+  margin: 15px 110x;
+}
+
+.instructions {
+  text-align: center;
+  color: lightcyan;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.instructions h2 {
+  font-size: 200%;
+}
+
+
+.instructions p {
+  font-size: 130%;
+}
+
+.instructions ul {
+  list-style: none;
+  font-size: 110%;
+}

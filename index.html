@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+         <head>
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             
+             <link rel="stylesheet" type="text/css" href="css/style.css">
+             <link rel="stylesheet" type="text/css" href="css/queries.css">
+             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+             
+             <title>Human, Bear&amp; Gun</title>
+        </head>
+        
+        <body>
+            
+           <div class="player">
+               
+             <div class="human">
+                 <img id="human-js" src="img/human.jpg" alt="human">
+             </div>
+             <div class="bear">
+                 <img id="bear-js" src="img/bear.jpg" alt="bear">
+             </div>            
+             <div class="gun">
+                <img id="gun-js" src="img/gun.jpg" alt="gun">
+             </div>
+            
+            </div>
+            
+            <div class="instructions">
+                <h2 class="font-effect-neon">Bear, Human, or Gun</h2>
+                <p>Bear human gun is just like Rock paper scissors. Each player chooses either bear, human, or gun.<br>
+                     The items are compared, and whichever player chooses the more powerful item wins.</p>
+                <ul>
+                    The Possible Out Comes:
+                    <li>- bear mauls human.</li>
+                    <li>- human disarms gun.</li>
+                    <li>- gun shoots bear.</li>
+                    <li>- If there's a tie, then the game ends in a draw.</li>
+                </ul>
+            </div>
+
+            <div class="play">
+                <input type="text"  id="playerChoice">
+                <input type="submit" value="start"  onclick="playGame()">
+            </div>
+
+        <script src="js/game.js"></script>    
+        </body>
+
+
+    </html>
